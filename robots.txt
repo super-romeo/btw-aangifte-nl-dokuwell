@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://btw-aangifte-nl.dokuline.com/sitemap.xml
+Sitemap: https://btw-aangifte-nl.dokufile.com/sitemap.xml
