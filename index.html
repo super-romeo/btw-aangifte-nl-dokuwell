@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Voor ondernemers in Nederland met kwartaalaangifte: de btw-aangifte voorbereid uit uw facturen, nagekeken en op tijd ingediend.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -65,38 +69,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Btw Kwartaal NL</a></div>
-  <nav class="top"><a href="#wat" data-ev="click_nav_wat">Wat u krijgt</a><a href="price.html" data-ev="click_nav_prijs">Prijs</a><a href="#voorbeeld" data-ev="click_nav_voorbeeld">Voorbeeld</a><a href="#start" data-ev="click_nav_start">Starten</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Btw Kwartaal NL</a>
+  <nav><a href="#wat" data-ev="click_nav_wat">Wat u krijgt</a><a href="price.html" data-ev="click_nav_prijs">Prijs</a><a href="#voorbeeld" data-ev="click_nav_voorbeeld">Voorbeeld</a><a href="#start" data-ev="click_nav_start">Starten</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Uw btw-aangifte per kwartaal, voorbereid uit uw facturen en op tijd ingediend</h1>
-    <p class="sub">Voor zzp'ers en kleine ondernemers in Nederland: u zet de facturen van het kwartaal klaar, de te betalen en terug te vragen btw wordt nagekeken, en de aangifte gaat vóór de laatste dag van de maand naar de Belastingdienst.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Dit heb ik nodig</a>
-    <p class="cta-note">Vroege toegang · Op deze pagina kan nog niet worden betaald</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Voor zzp'ers en kleine ondernemers in Nederland</p>
+      <h1 class="rise" style="--i:1" data-len="long">Uw btw-aangifte per kwartaal, voorbereid uit uw facturen en op tijd ingediend</h1>
+      <p class="rise" style="--i:2">Voor zzp'ers en kleine ondernemers in Nederland: u zet de facturen van het kwartaal klaar, de te betalen en terug te vragen btw wordt nagekeken, en de aangifte gaat vóór de laatste dag van de maand naar de Belastingdienst.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Dit heb ik nodig</a>
+      <p class="meta rise" style="--i:4">Vroege toegang · Op deze pagina kan nog niet worden betaald</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" fill="#0a1524" font-weight="600">kwartaal</text><line x1="110" y1="210" x2="1090" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="142,282 150,292 166,272" fill="none" stroke="#12397a" stroke-width="4" /><text x="200" y="292" font-size="32" fill="#0a1524">facturen</text><rect x="130" y="360" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="142,382 150,392 166,372" fill="none" stroke="#12397a" stroke-width="4" /><text x="200" y="392" font-size="32" fill="#0a1524">Rubrieken</text><rect x="130" y="470" width="340" height="24" fill="#dde2ea" rx="8" /><rect x="130" y="540" width="260" height="24" fill="#b9c3d2" rx="8" /><rect x="700" y="250" width="380" height="420" fill="#dfe8f7" rx="20" /><text x="730" y="310" font-size="34" fill="#0a1524" font-weight="600">aangifte</text><rect x="730" y="470" width="48" height="150" fill="#12397a" rx="8" /><rect x="810" y="400" width="48" height="220" fill="#ffffff" rx="8" /><rect x="890" y="500" width="48" height="120" fill="#ffffff" rx="8" /><rect x="970" y="440" width="48" height="180" fill="#ffffff" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Voor</dt><dd>Zzp'ers en kleine ondernemers</dd></div>
+      <div><dt>Wat</dt><dd>Btw-aangifte per kwartaal</dd></div>
+      <div><dt>Hoe</dt><dd>Uit uw facturen</dd></div>
+      <div><dt>Toegang</dt><dd>Vroege toegang</dd></div>
+    </dl>
+  </section>
 
   <section id="wat" data-view="features_view">
-    <h2>Wat u krijgt</h2>
-    <div class="grid">
-      <div class="card"><b>Facturen van het kwartaal</b><span>Verkoop- en inkoopfacturen per kwartaal verzameld en ingedeeld.</span><br><a class="btn" href="price.html" data-ev="feature_facturen">Dit heb ik nodig</a></div>
-      <div class="card"><b>Rubrieken nagekeken</b><span>Omzet en voorbelasting per rubriek nagekeken met de facturen.</span><br><a class="btn" href="price.html" data-ev="feature_rubrieken">Dit heb ik nodig</a></div>
-      <div class="card"><b>Aangifte ingediend</b><span>De btw-aangifte rechtstreeks naar de Belastingdienst.</span><br><a class="btn" href="price.html" data-ev="feature_indienen">Dit heb ik nodig</a></div>
-      <div class="card"><b>Termijnen</b><span>Een herinnering ruim vóór het einde van de maand na het kwartaal.</span><br><a class="btn" href="price.html" data-ev="feature_termijn">Dit heb ik nodig</a></div>
+    <div class="stack"><h2>Wat u krijgt</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Facturen</text><rect x="120" y="210" width="40" height="40" fill="#12397a" rx="8" /><polyline points="130,230 138,240 152,222" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="190" y="218" width="280" height="22" fill="#dde2ea" rx="8" /><rect x="120" y="280" width="40" height="40" fill="#12397a" rx="8" /><polyline points="130,300 138,310 152,292" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="190" y="288" width="240" height="22" fill="#b9c3d2" rx="8" /><rect x="120" y="350" width="40" height="40" fill="#dfe8f7" rx="8" /><rect x="190" y="358" width="200" height="22" fill="#dde2ea" rx="8" /><rect x="120" y="420" width="40" height="40" fill="#dfe8f7" rx="8" /><rect x="190" y="428" width="160" height="22" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Facturen van het kwartaal</h3><p>Verkoop- en inkoopfacturen per kwartaal verzameld en ingedeeld.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_facturen">Dit heb ik nodig</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Rubrieken</text><line x1="140" y1="470" x2="660" y2="470" fill="none" stroke="#b9c3d2" stroke-width="4" /><rect x="160" y="360" width="70" height="110" fill="#dfe8f7" rx="8" /><rect x="280" y="280" width="70" height="190" fill="#12397a" rx="8" /><rect x="400" y="390" width="70" height="80" fill="#dfe8f7" rx="8" /><rect x="520" y="320" width="70" height="150" fill="#dfe8f7" rx="8" /></svg></div>
+        <h3>Rubrieken nagekeken</h3><p>Omzet en voorbelasting per rubriek nagekeken met de facturen.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rubrieken">Dit heb ik nodig</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="140" y="70" width="520" height="460" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><text x="180" y="150" font-size="36" fill="#0a1524" font-weight="600">Belastingdienst</text><rect x="180" y="200" width="300" height="20" fill="#dde2ea" rx="6" /><rect x="180" y="246" width="240" height="20" fill="#b9c3d2" rx="6" /><rect x="180" y="292" width="320" height="20" fill="#dde2ea" rx="6" /><rect x="180" y="338" width="180" height="20" fill="#b9c3d2" rx="6" /><circle cx="560" cy="400" r="48" fill="#dfe8f7" /><polyline points="540,400 554,416 584,376" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Aangifte ingediend</h3><p>De btw-aangifte rechtstreeks naar de Belastingdienst.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_indienen">Dit heb ik nodig</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="36" fill="#0a1524" font-weight="600">Termijnen</text><rect x="120" y="200" width="100" height="64" fill="#dfe8f7" rx="10" /><rect x="260" y="200" width="100" height="64" fill="#dfe8f7" rx="10" /><rect x="400" y="200" width="100" height="64" fill="#dfe8f7" rx="10" /><rect x="540" y="200" width="100" height="64" fill="#dfe8f7" rx="10" /><rect x="120" y="290" width="100" height="64" fill="#dfe8f7" rx="10" /><rect x="260" y="290" width="100" height="64" fill="#12397a" rx="10" /><rect x="400" y="290" width="100" height="64" fill="#dfe8f7" rx="10" /><rect x="540" y="290" width="100" height="64" fill="#dfe8f7" rx="10" /><rect x="120" y="380" width="100" height="64" fill="#dfe8f7" rx="10" /><rect x="260" y="380" width="100" height="64" fill="#dfe8f7" rx="10" /><rect x="400" y="380" width="100" height="64" fill="#dfe8f7" rx="10" /><rect x="540" y="380" width="100" height="64" fill="#dfe8f7" rx="10" /></svg></div>
+        <h3>Termijnen</h3><p>Een herinnering ruim vóór het einde van de maand na het kwartaal.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_termijn">Dit heb ik nodig</a>
+      </article>
     </div>
   </section>
 
-  <section id="voorbeeld" data-view="example_view">
-    <h2>Voorbeeld (fictieve gegevens)</h2>
-    <p class="fine">Een zzp'er in de grafische vormgeving heeft in het kwartaal 30 verkoopfacturen en 55 inkoopbonnen. Ze worden klaargezet; de controle toont twee bonnen zonder btw-nummer van de leverancier en één factuur aan een klant in België met verlegde btw. Na de correcties gaat de aangifte met het juiste bedrag naar de Belastingdienst, een week voor de termijn.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Bekijk het aanbod</a>
+  <section id="voorbeeld" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Voorbeeld</h2>
+      <p>Een zzp'er in de grafische vormgeving heeft in het kwartaal 30 verkoopfacturen en 55 inkoopbonnen. Ze worden klaargezet; de controle toont twee bonnen zonder btw-nummer van de leverancier en één factuur aan een klant in België met verlegde btw. Na de correcties gaat de aangifte met het juiste bedrag naar de Belastingdienst, een week voor de termijn.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Bekijk het aanbod</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="200" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="1000" cy="150" r="22" fill="#12397a" /><text x="200" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">kwartaal</text><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">controle</text><text x="1000" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">correcties</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="36" fill="#0a1524" font-weight="600">Belastingdienst</text><text x="170" y="640" font-size="32" fill="#566174">facturen</text><rect x="170" y="470" width="80" height="64" fill="#dfe8f7" rx="10" /><rect x="290" y="470" width="80" height="64" fill="#12397a" rx="10" /><rect x="410" y="470" width="80" height="64" fill="#dfe8f7" rx="10" /><rect x="530" y="470" width="80" height="64" fill="#dfe8f7" rx="10" /><rect x="650" y="470" width="80" height="64" fill="#12397a" rx="10" /><rect x="770" y="470" width="80" height="64" fill="#dfe8f7" rx="10" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Zo werkt het</h2>
-    <p>Wie in Nederland btw-ondernemer is en per kwartaal aangifte doet, moet de aangifte indienen en de btw betalen vóór het einde van de maand na het kwartaal. Te laat of niet indienen kost een verzuimboete.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Zo werkt het</h2></div>
+    <div class="stack">
+      <p>Wie in Nederland btw-ondernemer is en per kwartaal aangifte doet, moet de aangifte indienen en de btw betalen vóór het einde van de maand na het kwartaal. Te laat of niet indienen kost een verzuimboete.</p>
     <p>Mijn Belastingdienst Zakelijk ontvangt de aangifte, maar houdt uw administratie niet bij. Antwoorden op veelgestelde vragen staan bij de <a href="#faq" data-ev="click_opis_faq">vragen</a>, en u kunt <a href="#start" data-ev="click_opis_start">onderaan de pagina</a> beginnen.</p>
     <p>Btw Kwartaal NL doet één smalle taak: het maakt van uw facturen van het kwartaal een nagekeken btw-aangifte en dient die op tijd in.</p>
     <p>U zet de verkoopfacturen en de inkoopfacturen en bonnen van het kwartaal klaar, als bestand of als foto. Ze worden per kwartaal verzameld en ingedeeld naar tarief.</p>
@@ -114,29 +148,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Werkt u al met een boekhouder voor de jaarafsluiting, dan kan die het kwartaaloverzicht gewoon overnemen.</p>
     <p>Om te beginnen hebt u alleen de facturen en bonnen van het laatste kwartaal nodig.</p>
     <p>Btw Kwartaal NL bereidt de btw-aangifte voor en dient die in; fiscaal advies en de aangifte inkomstenbelasting blijven bij u of uw boekhouder.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Veelgestelde vragen</h2>
-    <h3>Voor wie is het?</h3>
-    <p>Voor zzp'ers en kleine ondernemers in Nederland die per kwartaal btw-aangifte doen.</p>
-    <h3>Waarom niet alleen Mijn Belastingdienst?</h3>
-    <p>Daar dient u de aangifte in, maar uw facturen worden er niet verzameld en nagekeken.</p>
-    <h3>Geeft het fiscaal advies?</h3>
-    <p>Nee. Het bereidt de btw-aangifte voor uit uw facturen en dient die in.</p>
-    <h3>Kan ik het nu gebruiken?</h3>
-    <p>Nog niet. De dienst wordt voorbereid, en we kijken of ondernemers in Nederland hem nodig hebben.</p>
+    <div class="stack"><h2>Veelgestelde vragen</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Voor wie is het?</h3><p>Voor zzp'ers en kleine ondernemers in Nederland die per kwartaal btw-aangifte doen.</p></div>
+      <div class="split flip"><h3>Waarom niet alleen Mijn Belastingdienst?</h3><p>Daar dient u de aangifte in, maar uw facturen worden er niet verzameld en nagekeken.</p></div>
+      <div class="split flip"><h3>Geeft het fiscaal advies?</h3><p>Nee. Het bereidt de btw-aangifte voor uit uw facturen en dient die in.</p></div>
+      <div class="split flip"><h3>Kan ik het nu gebruiken?</h3><p>Nog niet. De dienst wordt voorbereid, en we kijken of ondernemers in Nederland hem nodig hebben.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Beginnen</h2>
-    <p><label>Hoeveel facturen hebt u per kwartaal<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— kies —</option><option>Tot 50</option><option>50–200</option><option>Meer dan 200</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Beginnen</h2>
+    </div>
+    <div class="tile stack">
+      <label>Hoeveel facturen hebt u per kwartaal<select data-ev-focus="form_start"><option value="">— kies —</option><option>Tot 50</option><option>50–200</option><option>Meer dan 200</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Btw Kwartaal NL</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Btw Kwartaal NL bereidt de btw-aangifte voor uit uw facturen en dient die in; het is geen belastingadviseur.</p>
+  <p>Btw Kwartaal NL bereidt de btw-aangifte voor uit uw facturen en dient die in; het is geen belastingadviseur.</p>
 </div></footer>
 
 </body>
